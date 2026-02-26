@@ -36,7 +36,7 @@ export const ClimateDashboard = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
     const [startYear, setStartYear] = useState(1990);
-    const [endYear, setEndYear] = useState(2024);
+    const [endYear] = useState(2024);
 
     const fetchData = async (fetchLat: number, fetchLon: number, sy: number, ey: number) => {
         setLoading(true);
