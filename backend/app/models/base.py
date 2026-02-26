@@ -1,7 +1,6 @@
 import uuid
 from sqlalchemy import Column, String, Float, DateTime, Integer, ForeignKey
 from app.core.database import Base
-from sqlalchemy.dialects.postgresql import UUID
 
 class Location(Base):
     __tablename__ = "locations"
