@@ -33,7 +33,7 @@ export const MLAnalytics = () => {
             const result = await getPrediction(pastAqi1, pastAqi2, temp, precip);
             setPrediction(result);
         } catch (e: any) {
-            setError(e?.response?.data?.detail || e?.message || 'Prediction failed. Is the backend running?');
+            setError(e?.response?.data?.detail || e?.message || 'ML Prediction backend is currently offline. The rest of the dashboard will continue to function normally!');
         } finally {
             setLoading(false);
         }
