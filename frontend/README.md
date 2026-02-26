@@ -1,4 +1,4 @@
-# Environmental Intelligence Platform (Frontend)
+# Environmental Intelligence Platform with predictions (Frontend)
 
 The frontend for the Environmental Intelligence Platform. Built using React, Vite, and TailwindCSS. It provides a highly aesthetic, responsive dashboard to monitor air quality, historical rainfall, macro climate trends, and predictive ML analytics.
 
